@@ -1,10 +1,10 @@
-package aula02;
+package aula04;
 
 public class ContaCorrente extends Conta
 {
 	@Override
 	public void atualiza( double taxa ) 
 	{
-		super.atualiza( taxa * 2 );
+		this.saldo += taxa * 2;
 	}
 }
