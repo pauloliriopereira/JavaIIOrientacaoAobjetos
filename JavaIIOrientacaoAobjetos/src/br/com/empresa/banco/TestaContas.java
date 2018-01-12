@@ -1,4 +1,9 @@
-package aula04;
+package br.com.empresa.banco;
+
+import br.com.empresa.banco.conta.Conta;
+import br.com.empresa.banco.conta.ContaCorrente;
+import br.com.empresa.banco.conta.ContaPoupanca;
+import br.com.empresa.banco.sistema.AtualizadorDeContas;
 
 public class TestaContas 
 {
